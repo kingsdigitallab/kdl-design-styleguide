@@ -18,8 +18,8 @@ email: ginestra@users.noreply.github.com
 description: > # this means to ignore newlines until "baseurl:"
   Collecting and organising design guidelines for both for visual and front-end 
   coding purposes.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/kdl-design-styleguide" # the subpath of your site, e.g. /blog
+url: "https://kingsdigitallab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kingsdigitallab
 github_username:  kingsdigitallab
 
