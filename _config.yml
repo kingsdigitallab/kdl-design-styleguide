@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: KDL Design Styleguide
-email: your-email@example.com
+email: ginestra@users.noreply.github.com
 description: > # this means to ignore newlines until "baseurl:"
   Collecting and organising design guidelines for both for visual and front-end 
   coding purposes.
