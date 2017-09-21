@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -26,7 +25,6 @@ body {
 }
 
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -38,7 +36,6 @@ ul, ol, dl, figure,
 }
 
 
-
 /**
  * Images
  */
@@ -46,7 +43,6 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
-
 
 
 /**
@@ -61,12 +57,24 @@ figcaption {
 }
 
 
-
 /**
  * Lists
  */
 ul, ol {
   margin-left: $spacing-unit;
+
+  &.no-bullet {
+    list-style: none;
+    margin-left: 0;
+  }
+
+  &.inline-list {
+    margin-left: 0;
+    li {
+      display: inline-block;
+      list-style: none;
+    }
+  }
 }
 
 li {
@@ -77,15 +85,13 @@ li {
 }
 
 
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-family: $base-heading-font;
+  font-family: $auxiliary-font;
   font-weight: 400;
 }
-
 
 
 /**
@@ -131,7 +137,6 @@ blockquote {
 }
 
 
-
 /**
  * Code formatting
  */
@@ -159,7 +164,6 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
@@ -181,7 +185,6 @@ pre {
 }
 
 
-
 /**
  * Clearfix
  */
@@ -190,7 +193,6 @@ pre {
   display: table;
   clear: both;
 }
-
 
 
 /**
@@ -215,6 +217,18 @@ pre {
   }
 }
 
+
+/**
+ * Tags
+ */
+
+.tags {
+  background: #e8e8e8;
+  border-radius: 2px;
+  color: #424242;
+  font-size: 14px;
+  padding: 2px 6px;
+}
 
 
 /**
