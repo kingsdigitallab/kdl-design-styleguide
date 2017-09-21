@@ -37,11 +37,15 @@ layout: default
   <h1 class="page-heading">Table of contents</h1>
   
   <ol>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </li>
-    {% endfor %}
+    <li>CSS / Scss
+      <ul>
+        {% for post in site.posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </li>
   </ol>
 
 <!--
