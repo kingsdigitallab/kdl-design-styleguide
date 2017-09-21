@@ -90,7 +90,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-family: $auxiliary-font;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 
@@ -226,6 +226,7 @@ pre {
   background: #e8e8e8;
   border-radius: 2px;
   color: #424242;
+  font-family: $auxiliary-font;
   font-size: 14px;
   padding: 2px 6px;
 }

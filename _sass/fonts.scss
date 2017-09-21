@@ -1,3 +1,59 @@
+/** Importing King's Fonts **/
+
+/** King's Bureau Grotesque **/
+
+@font-face {
+  font-family: 'KingsBureauGrot';
+  src: url('../assets/fonts/KingsBureauGrot/KingsBureauGrot-FiveOne.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'KingsBureauGrot';
+  src: url('../assets/fonts/KingsBureauGrot/KingsBureauGrot-FiveOneItal.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KingsBureauGrot';
+  src: url('../assets/fonts/KingsBureauGrot/KingsBureauGrot-ThreeSeven.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'KingsBureauGrot';
+  src: url('../assets/fonts/KingsBureauGrot/KingsBureauGrot-ThrSevenItal.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 700;
+  font-style: italic;
+}
+
+/** King's Caslon **/
+
+@font-face {
+  font-family: 'KingsCaslon';
+  src: url('../assets/fonts/KingsCaslon/KingsCaslon.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'KingsCaslon';
+  src: url('../assets/fonts/KingsCaslon/KingsCaslonItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'KingsCaslon';
+  src: url('../assets/fonts/KingsCaslon/KingsCaslonSemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'KingsCaslon';
+  src: url('../assets/fonts/KingsCaslon/KingsCaslonSemiBoldItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: bold;
+  font-style: italic;
+}
+
 /*
  * Merriweather
 ================================================================================ */
@@ -40,6 +96,10 @@
     font-weight: 700;
     font-style: italic;
 }
+
+/*
+ * Oswald
+================================================================================ */
 
 @font-face {
     font-family: 'Oswald';
