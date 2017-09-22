@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "CSS/Sass styling"
-date:   2017-09-21 13:43:17 +0100
-category: [A-Test, CSS / Sass, Style]
+title:  "A post to test categories"
+date:   2017-09-22 12:11:17 +0100
+category: [A-Test, CSS / Sass]
 tags: css scss sass
-permalink: /css-styling/
+permalink: /post-test-categories/
 ---
 
 ## Coding standards
