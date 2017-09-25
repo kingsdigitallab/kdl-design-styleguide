@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CSS/Sass styling"
-date:   2017-09-21 13:43:17 +0100
+date:   2017-09-19 13:43:17 +0100
 category: [A-Test, CSS / Sass, Style]
 tags: css scss sass
 permalink: /css-styling/
