@@ -6,9 +6,9 @@ Site visible here: https://kingsdigitallab.github.io/kdl-design-styleguide/
 ## Running Jekyll locally
 
 1. Install Jekyll and Bundler gems through RubyGems
-```
-gem install jekyll bundler
-```
+    ```
+    gem install jekyll bundler
+    ```
 2. cd into the folder where the project will be installed
 3. Checkout from the repository (gh-pages branch)
 ```
