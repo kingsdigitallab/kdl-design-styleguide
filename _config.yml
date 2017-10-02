@@ -28,6 +28,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  content:
+    output: true
+    permalink: /content/:path/
 
 # Build settings
 markdown: kramdown
