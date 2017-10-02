@@ -23,4 +23,4 @@ cd kdl-design-styleguide
 ```
 jekyll serve -w --baseurl /
 ```
-The site will be running locally at `http://localhost:4000/
+The site will be running locally at `http://localhost:4000/`
