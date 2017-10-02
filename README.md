@@ -15,11 +15,11 @@ Site visible here: https://kingsdigitallab.github.io/kdl-design-styleguide/
     git checkout git@github.com:kingsdigitallab/kdl-design-styleguide.git
     ```
 4. cd into the project folder
-  ```
-  cd kdl-design-styleguide
-  ```
+    ```
+    cd kdl-design-styleguide
+    ```
 5. Run Jekyll locally
-  ```
-  jekyll serve -w --baseurl /
-  ```
+    ```
+    jekyll serve -w --baseurl /
+    ```
 The site will be running locally at `http://localhost:4000/`
