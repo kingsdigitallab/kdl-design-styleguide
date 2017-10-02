@@ -23,6 +23,12 @@ url: "https://kingsdigitallab.github.io" # the base hostname & protocol for your
 twitter_username: kingsdigitallab
 github_username:  kingsdigitallab
 
+# Custom collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 # Build settings
 markdown: kramdown
 theme: minima
