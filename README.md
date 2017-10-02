@@ -5,20 +5,20 @@ Site visible here: https://kingsdigitallab.github.io/kdl-design-styleguide/
 
 ## Running Jekyll locally
 
-* Install Jekyll and Bundler gems through RubyGems
+1. Install Jekyll and Bundler gems through RubyGems
 ```
 gem install jekyll bundler
 ```
-* cd into the folder where the project will be installed
-* Checkout from the repository (gh-pages branch)
+2. cd into the folder where the project will be installed
+3. Checkout from the repository (gh-pages branch)
 ```
 git checkout git@github.com:kingsdigitallab/kdl-design-styleguide.git
 ```
-* cd into the project folder
+4. cd into the project folder
 ```
 cd kdl-design-styleguide
 ```
-* Run Jekyll locally
+5. Run Jekyll locally
 ```
 jekyll serve -w --baseurl /
 ```
