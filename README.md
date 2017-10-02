@@ -6,7 +6,6 @@ Site visible here: https://kingsdigitallab.github.io/kdl-design-styleguide/
 ## Running Jekyll locally
 
 1. Install Jekyll and Bundler gems through RubyGems
-...Indented para
 ```
 gem install jekyll bundler
 ```
@@ -23,4 +22,4 @@ cd kdl-design-styleguide
 ```
 jekyll serve -w --baseurl /
 ```
-The site will be running locally at `http://localhost:4000/
+The site will be running locally at `http://localhost:4000/`
