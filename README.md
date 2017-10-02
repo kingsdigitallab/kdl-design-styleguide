@@ -9,7 +9,7 @@ Site visible here: https://kingsdigitallab.github.io/kdl-design-styleguide/
 ```
 gem install jekyll bundler
 ```
-* cd into the desired folder
+* cd into the folder where the project will be installed
 * Checkout from the repository (gh-pages branch)
 ```
 git checkout git@github.com:kingsdigitallab/kdl-design-styleguide.git
@@ -22,4 +22,4 @@ cd kdl-design-styleguide
 ```
 jekyll serve -w --baseurl /
 ```
-The site will be running locally at `http://localhost:4000/`
+The site will be running locally at `http://localhost:4000/
