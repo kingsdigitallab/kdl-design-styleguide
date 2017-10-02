@@ -11,9 +11,9 @@ Site visible here: https://kingsdigitallab.github.io/kdl-design-styleguide/
     ```
 2. cd into the folder where the project will be installed
 3. Checkout from the repository (gh-pages branch)
-```
-git checkout git@github.com:kingsdigitallab/kdl-design-styleguide.git
-```
+  ```
+  git checkout git@github.com:kingsdigitallab/kdl-design-styleguide.git
+  ```
 4. cd into the project folder
 ```
 cd kdl-design-styleguide
