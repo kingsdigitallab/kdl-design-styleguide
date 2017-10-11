@@ -10,7 +10,8 @@ permalink: /adding-cookie-disclaimer/
 ## Step by step guide
 ---
 
-1. Install js-cookie to the vendor folder: add js-cookie to the project bower.json file by adding this line to the list of dependencies (after jquery):
+
+1. Install js-cookie to the vendor folder: add js-cookie to the project `bower.json` file by adding this line to the list of dependencies (after jquery):
 
     ```
         "js-cookie": null,
@@ -115,7 +116,7 @@ permalink: /adding-cookie-disclaimer/
 5. HTML and SCSS
     It's important to match *ids* and *classes* set in javascript. The example below matches ids and classes used in the snippet above.
 
-    *HTML*
+    **HTML**
     ---
 
     ```
