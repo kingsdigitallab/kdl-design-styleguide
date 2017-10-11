@@ -165,7 +165,7 @@ permalink: /adding-cookie-disclaimer/
         }
         
         button {
-            background: #fff;
+            background: #666;
             height: 3rem;
             line-height: 1rem;
             margin-top: .5rem;
@@ -175,7 +175,7 @@ permalink: /adding-cookie-disclaimer/
         }
         
         p {
-            margin: 1rem auto .5rem;
+            margin: 1rem auto;
         }
     }
     ```
