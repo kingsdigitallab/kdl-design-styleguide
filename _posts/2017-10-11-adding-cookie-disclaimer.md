@@ -52,12 +52,12 @@ permalink: /adding-cookie-disclaimer/
         'use strict';
 
         $(document).ready(function() {
-            if (!Cookies.get('YOURCOOKIENAME')) {
+            if (!cookie.get('YOURCOOKIENAME')) {
               $("#cookie-disclaimer").removeClass('hide');
             }
             // Set cookie
             $('#cookie-disclaimer .closeme').on("click", function() {
-              Cookies.set('YOURCOOKIENAME', 'YOURCOOKIENAME-set', {
+              cookie.set('YOURCOOKIENAME', 'YOURCOOKIENAME-set', {
                   expires: 30
               });
             });
@@ -76,12 +76,12 @@ permalink: /adding-cookie-disclaimer/
 
     ```
     $(document).ready(function() {
-        if (!cookie.get('YOURCOOKIENAME')) {
+        if (!Cookies.get('YOURCOOKIENAME')) {
           $("#cookie-disclaimer").removeClass('hide');
         }
         // Set cookie
         $('#cookie-disclaimer .closeme').on("click", function() {
-          cookie.set('YOURCOOKIENAME', 'YOURCOOKIENAME-set', {
+          Cookies.set('YOURCOOKIENAME', 'YOURCOOKIENAME-set', {
               expires: 30
           });
         });
