@@ -2,8 +2,8 @@
 layout: post
 title:  "Adding cookie disclaimer"
 date:   2017-10-11 11:14:17 +0100
-category: [Javascript, HTML, CSS / Sass, Snippets]
-tags: css snippets javascript
+category: [Snippets]
+tags: snippets javascript requirejs cookie-disclaimer
 permalink: /adding-cookie-disclaimer/
 ---
 
