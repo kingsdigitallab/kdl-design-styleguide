@@ -21,7 +21,7 @@ permalink: /adding-cookie-disclaimer/
     bower install bower.json
     ```
 
-2. Configure js-cookie and requirejs (if the project is using requirejs): add the path to js-cookie to `config.require.js` (/assets > js):
+2. Configure js-cookie and requirejs (if the project is using requirejs): add the path to js-cookie to `config.require.js` (assets > js):
 
     ```
     paths: {
