@@ -8,7 +8,6 @@ permalink: /adding-cookie-disclaimer/
 ---
 
 ## Step by step guide
----
 
 1. Install js-cookie to the vendor folder: add js-cookie to the project `bower.json` file by adding this line to the list of dependencies (after jquery):
     
@@ -117,7 +116,6 @@ permalink: /adding-cookie-disclaimer/
 
     **HTML**
 
-
     ```
     <!-- Cookie disclaimer -->
     
@@ -130,7 +128,6 @@ permalink: /adding-cookie-disclaimer/
 
     **SCSS**
 
-
     Check if your project CSS already has a class to hide elements (it could be `.hidden`, `.is-hidden`, `.hide` or similar).
     If a class already exists, make sure that your HTML and Javascript reflect it, otherwise add:
 
@@ -141,9 +138,7 @@ permalink: /adding-cookie-disclaimer/
     }
     ```
 
-
     Style the `<div>` that contains the disclaimer.
-
 
     ```
     .cookies-box {
@@ -184,4 +179,3 @@ permalink: /adding-cookie-disclaimer/
         }
     }
     ```
-
