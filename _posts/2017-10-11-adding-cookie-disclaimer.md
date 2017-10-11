@@ -7,7 +7,8 @@ tags: css snippets javascript
 permalink: /adding-cookie-disclaimer/
 ---
 
-## Step by step guide
+Step by step guide
+==================
 
 1. Install js-cookie to the vendor folder: add js-cookie to the project bower.json file by adding this line to the list of dependencies (after jquery):
 
@@ -21,7 +22,7 @@ permalink: /adding-cookie-disclaimer/
     bower install bower.json
     ```
 
-2. js-cookie and requirejs (if the project is using requirejs): add the path to js-cookie to config.require.js (assets > js):
+2. Configure js-cookie and requirejs (if the project is using requirejs): add the path to js-cookie to `config.require.js` (/assets > js):
 
     ```
     paths: {
@@ -114,7 +115,8 @@ permalink: /adding-cookie-disclaimer/
 5. HTML and SCSS
     It's important to match *ids* and *classes* set in javascript. The example below matches ids and classes used in the snippet above.
 
-    ## HTML
+    HTML
+    ====
 
     ```
     <!-- Cookie disclaimer -->
@@ -126,9 +128,10 @@ permalink: /adding-cookie-disclaimer/
     </div>
     ```
 
-    ## SCSS
+    SCSS
+    ====
 
-    a. Check if your project CSS already has a class to hide elements (it could be `.hidden`, `.is-hidden`, `.hide` or similar).
+    * Check if your project CSS already has a class to hide elements (it could be `.hidden`, `.is-hidden`, `.hide` or similar).
     If a class already exists, make sure that your HTML and Javascript reflect it, otherwise add:
 
     ```
@@ -137,7 +140,7 @@ permalink: /adding-cookie-disclaimer/
     }
     ```
 
-    b. Style the `<div>` that contains the disclaimer.
+    * Style the `<div>` that contains the disclaimer.
 
     ```
     .cookies-box {
