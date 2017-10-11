@@ -10,11 +10,10 @@ permalink: /adding-cookie-disclaimer/
 ## Step by step guide
 ---
 
-
-1. Install js-cookie to the vendor folder: add js-cookie to the project `bower.json file by adding this line to the list of dependencies (after jquery):
-
+1. Install js-cookie to the vendor folder: add js-cookie to the project `bower.json` file by adding this line to the list of dependencies (after jquery):
+    
     ```
-        "js-cookie": null,
+    "js-cookie": null,
     ```
 
     Run bower.json in the terminal
@@ -74,7 +73,7 @@ permalink: /adding-cookie-disclaimer/
     });
     ```
 
-    If the project is *not* using requirejs, the snippet won't have any module definition. Make sure you include the snippet below in your Javascript:
+    If the project is **not** using requirejs, the snippet won't have any module definition. Make sure you include the snippet below in your Javascript:
 
     ```
     $(document).ready(function() {
@@ -114,7 +113,7 @@ permalink: /adding-cookie-disclaimer/
     You only need to import main in `config.js` (make sure it's imported once only).
 
 5. HTML and SCSS
-    It's important to match *ids* and *classes* set in javascript. The example below matches ids and classes used in the snippet above.
+    It's important to match **ids** and **classes** set in javascript. The example below matches ids and classes used in the snippet above.
 
     **HTML**
 
@@ -129,60 +128,60 @@ permalink: /adding-cookie-disclaimer/
     </div>
     ```
 
-    *SCSS*
+    **SCSS**
 
 
     Check if your project CSS already has a class to hide elements (it could be `.hidden`, `.is-hidden`, `.hide` or similar).
     If a class already exists, make sure that your HTML and Javascript reflect it, otherwise add:
 
 
-        ```
-        .hide {
-            display: none;
-        }
-        ```
+    ```
+    .hide {
+        display: none;
+    }
+    ```
 
 
     Style the `<div>` that contains the disclaimer.
 
 
     ```
-        .cookies-box {
-            background: rgba(0, 0, 0, .8);
-            bottom: 0;
-            color: white;
-            margin: 0;
-            position: fixed;
-            text-align: center;
-            width: 100%;
-            
-            a {
-                margin-bottom: 0;
-                &.button {
-                    text-decoration: underline;
-                }
-            }
-            
-            a,
-            button,
-            .button {
-                border: 0;
-                color: white;
-            }
-            
-            button {
-                background: #fff;
-                height: 3rem;
-                line-height: 1rem;
-                margin-top: .5rem;
-                &:hover {
-                    background: #444 !important;
-                }
-            }
-            
-            p {
-                margin: 1rem auto .5rem;
+    .cookies-box {
+        background: rgba(0, 0, 0, .8);
+        bottom: 0;
+        color: white;
+        margin: 0;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        
+        a {
+            margin-bottom: 0;
+            &.button {
+                text-decoration: underline;
             }
         }
-        ```
+        
+        a,
+        button,
+        .button {
+            border: 0;
+            color: white;
+        }
+        
+        button {
+            background: #fff;
+            height: 3rem;
+            line-height: 1rem;
+            margin-top: .5rem;
+            &:hover {
+                background: #444 !important;
+            }
+        }
+        
+        p {
+            margin: 1rem auto .5rem;
+        }
+    }
+    ```
 
